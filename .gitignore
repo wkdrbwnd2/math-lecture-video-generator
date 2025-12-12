@@ -1,3 +1,28 @@
+# Dependencies
 node_modules/
-*/node_modules/
-*/build/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+
+# Output files
+outputs/
+*.mp4
+*.avi
+*.gif
+*.py
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

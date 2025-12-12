@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["nodejs_20", "octave"]
+
+[phases.install]
+cmds = [
+  "npm install"
+]
+
+[start]
+cmd = "node mcp-servers/octave-server.js"
+

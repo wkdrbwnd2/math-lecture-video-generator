@@ -1,0 +1,12 @@
+moviepy==1.0.3
+gtts==2.2.4
+pydub==0.25.1
+diffusers>=0.21.0
+transformers>=4.35.0
+torch>=2.0.0
+accelerate>=0.24.0
+xformers>=0.0.22
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+

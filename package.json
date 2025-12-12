@@ -1,0 +1,33 @@
+{
+  "name": "generate-math-lecture-video3-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js/Express rewrite of the existing PHP app (front page + helpers).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup-db": "node scripts/setup-database.js",
+    "create-dev": "node scripts/create-dev-account.js",
+    "mcp:python": "node mcp-servers/python-server.js",
+    "mcp:matlab": "node mcp-servers/matlab-server.js",
+    "mcp:octave": "node mcp-servers/octave-server.js",
+    "mcp:manim": "node mcp-servers/manim-server.js",
+    "mcp:all": "concurrently \"npm run mcp:python\" \"npm run mcp:matlab\" \"npm run mcp:octave\" \"npm run mcp:manim\""
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.2",
+    "mysql2": "^3.11.3",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.16",
+    "replicate": "^1.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.9"
+  }
+}

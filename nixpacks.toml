@@ -1,5 +1,8 @@
+[providers]
+node = "20"
+
 [phases.setup]
-nixPkgs = ["nodejs_20", "python311", "octave"]
+nixPkgs = ["python311", "octave"]
 
 [phases.install]
 cmds = [

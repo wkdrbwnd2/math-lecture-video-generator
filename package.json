@@ -4,6 +4,9 @@
   "private": true,
   "description": "Node.js/Express rewrite of the existing PHP app (front page + helpers).",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",

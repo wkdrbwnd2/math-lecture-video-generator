@@ -1,14 +1,11 @@
 [phases.setup]
-nixPkgs = ["nodejs_20", "python311"]
+nixPkgs = ["nodejs_20", "python311", "octave"]
 
 [phases.install]
 cmds = [
   "npm install",
   "pip install matplotlib numpy plotly scipy pandas manim"
 ]
-
-[start]
-cmd = "node mcp-servers/python-server.js"
 
 
 

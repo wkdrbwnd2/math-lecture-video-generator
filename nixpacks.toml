@@ -1,12 +1,12 @@
-[providers]
-node = "20"
-
 [phases.setup]
-nixPkgs = ["python311", "octave"]
+nixPkgs = ["nodejs_20", "python311", "octave"]
 
 [phases.install]
 cmds = [
   "npm install",
   "pip install matplotlib numpy plotly scipy pandas manim"
 ]
+
+[phases.build]
+cmds = []
 

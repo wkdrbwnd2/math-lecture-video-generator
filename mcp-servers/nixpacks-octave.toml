@@ -9,3 +9,5 @@ cmds = [
 [start]
 cmd = "node mcp-servers/octave-server.js"
 
+
+

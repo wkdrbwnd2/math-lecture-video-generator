@@ -171,3 +171,5 @@ app.listen(PORT, () => {
   console.log(`[Blender MCP Server] Blender path: ${BLENDER_PATH}`);
 });
 
+
+

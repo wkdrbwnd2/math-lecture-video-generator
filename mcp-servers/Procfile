@@ -1,3 +1,5 @@
 python: node mcp-servers/python-server.js
 manim: node mcp-servers/manim-server.js
 
+
+

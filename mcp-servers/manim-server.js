@@ -146,3 +146,5 @@ app.listen(PORT, () => {
   console.log(`[Manim MCP Server] Running on port ${PORT}`);
 });
 
+
+
